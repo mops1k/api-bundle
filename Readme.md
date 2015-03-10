@@ -1,6 +1,6 @@
 # mops1k/api-bundle
 
-Symfony fast RESTful API generator installation
+Symfony fast RESTful API generator by http://lakion.com/lionframe installation
 
 ## Installation
 ```
