@@ -1,5 +1,5 @@
 {
-  "name": "mops1k/ApiBundle",
+  "name": "mops1k/api-bundle",
   "description": "Fast RESTFul API packages for generation",
   "type": "symfony-bundle",
   "keywords": ["rest", "symfony", "restful", "api", "json"],
