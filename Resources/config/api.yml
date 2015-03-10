@@ -1,0 +1,19 @@
+sylius_translation:
+    default_mapping:
+        translatable:
+            field: translations
+            currentLocale: currentLocale
+            fallbackLocale: fallbackLocale
+        translation:
+            field: translatable
+            locale: locale
+
+fos_rest:
+    disable_csrf_role: ROLE_API
+    view:
+        formats:
+            json: true
+            xml: true
+    format_listener:
+        rules:
+            - { path: '^/api', priorities: ['json', 'xml'], fallback_format: json, prefer_extension: true }

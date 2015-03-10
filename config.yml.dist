@@ -1,0 +1,3 @@
+imports:
+    ...
+    - { resource: '@mops1kApiBundle/Resources/config/api.yml' }

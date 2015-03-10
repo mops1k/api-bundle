@@ -1,0 +1,4 @@
+amtelcom_users_rest_users:
+    prefix: /api
+    resource: service.user
+    type: sylius.api

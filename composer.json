@@ -1,0 +1,31 @@
+{
+  "name": "mops1k/ApiBundle",
+  "description": "Fast RESTFul API packages for generation",
+  "type": "symfony-bundle",
+  "keywords": ["rest", "symfony", "restful", "api", "json"],
+  "homepage": "https://github.com/mops1k/api-bundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "mops1k",
+      "email": "bednyj.mops@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.3",
+    "sylius/resource-bundle": "0.13.*",
+    "sylius/translation-bundle": "0.13.*",
+    "willdurand/hateoas-bundle": "0.4.*",
+    "friendsofsymfony/rest-bundle": "*"
+  },
+  "autoload": {
+    "psr-0": { "mops1k\\ApiBundle": "" }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  },
+  "target-dir": "mops1k/ApiBundle",
+  "minimum-stability": "dev"
+}
