@@ -53,4 +53,20 @@ amtelcom_users_rest_users:
     type: sylius.api
 ```
 
+#### Add dependency
+```
+#@YourBundle/DependencyInjection/YourBundleExtension.php
+// ...
+    public function load(array $configs, ContainerBuilder $container)
+    {
+        // ...
+
+        $container->setParameter('sylius.locale', '%locale%');
+        $container->setParameter('sylius.translation.mapping', array());
+
+        // ...
+    }
+// ...
+```
+
 # Enjoy it!
