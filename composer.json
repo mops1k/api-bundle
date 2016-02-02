@@ -15,7 +15,7 @@
     "php": ">=5.3.3",
     "sylius/resource-bundle": "0.13.*",
     "sylius/translation-bundle": "0.13.*",
-    "willdurand/hateoas-bundle": "0.4.*",
+    "willdurand/hateoas-bundle": "~0.4.*|~1.*",
     "friendsofsymfony/rest-bundle": "*"
   },
   "autoload": {
